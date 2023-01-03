@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="eng">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <!-- MENU ENCABEZADO -->
+    <div class="contenedor-header">
+        <header>
+            
+            <nav id="nav">
+                <ul>
+                    <li><a href="#inicio" onclick="seleccionar()">Inicio</a></li>
+                    <li><a href="#sobremi" onclick="seleccionar()">About me</a></li>
+                    <li><a href="#skills" onclick="seleccionar()">Skills</a></li>
+                    <li><a href="#curriculum" onclick="seleccionar()">CV</a></li>
+                    <li><a href="#portfolio" onclick="seleccionar()">Portfolio</a></li>
+                    <li><a href="#contacto" onclick="seleccionar()">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div>
+
+    <!-- SECCION INICIO -->
+    <section id="inicio" class="inicio">
+        <div class="contenido-banner">
+            <div class="contenedor-img">
+                <img src="img/yo2.jpeg" alt="">
+            </div>
+            <h1>Gabriela Espinoza Picado</h1>
+            <p></p>
+            <h2>MSc in Information Technology | Data Analytics & Data Sciences | UI/UX</h2>
+            <p></p>
+            <div class="redes">
+                <a href="https://www.instagram.com/macagabya"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://github.com/gespynoza"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/gabriela-espinoza-picado-b60a5062/"><i class="fa-brands fa-linkedin-in"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION SOBRE MI -->
+    <section id="sobremi" class="sobremi">
+        <div class="contenido-seccion">
+            <h2>About me</h2>
+            <p><span>Hello, I'm Gabriela Espinoza.</span> 
+                <p> As a data analytics and business intelligence professional with a diverse range of skills and experiences, I have a strong foundation in data visualization, statistical analysis, SQL, Python, R, UI/UX. 
+                <p> </p>My experiences is very wide in consulting, banking, and government organizations, NGO's have allowed me to develop a unique set of skills that I can use to drive meaningful insights and decision making for my clients. I hold a Master's degree in Information Technology, I have completed coursework in machine learning applying this to my thesis, data modeling, and benchmarking. I have been responsible for creating and documenting public statistics, as well as designing statistical analyses on large data sets using R and Python programming languages. 
+                <p></p> In addition to my professional experience, I am also committed to giving back to my community. I have served as a mentor in the technology field for people with disabilities, and have taught digital design and data analysis to students in non-profit organizations. I am excited to bring my skills and experiences to new opportunities, and am always looking for ways to grow and learn in my field. If you are in need of data analytics, BI or data sciencce
+                 please don't hesitate to contact me. 
+
+                 <p></p> I'm very passionate about technolgy, learning and share 
+                 <p></p>
+                <div class="fila">
+                <!-- datos personales -->
+                <div class="col">
+                    <h3>Datos Personales</h3>
+                    <ul>
+                        <li>
+                            <strong>Telephone</strong>
+                            +(54) 9 1167131215
+                        </li>
+                        <li>
+                            <strong>Email</strong>
+                            g.espinozapicado@gmail.com
+                        </li>
+                        <li>
+                            <strong>Website</strong>
+                            www.example.com
+                        </li>
+                        <li>
+                            <strong>Ubication</strong>
+                            Buenos Aires, Argentina
+                        </li>
+                        <li>
+                            <strong>Role</strong>
+                            <span>Data Analyst/ Data Science</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- intereses -->
+                <div class="col">
+                    <h3>Interest</h3>
+                    <div class="contenedor-intereses">
+                        <div class="interes">
+                            <i class="fa-solid fa-language"></i>
+                            <span>Languages</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-headphones"></i>
+                            <span>Music</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-plane"></i>
+                            <span>Travel</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-brands fa-apple"></i>
+                            <span>TECH</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-person-hiking"></i>
+                            <span>Sport</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-book"></i>
+                            <span>Books</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-wheelchair"></i>
+                            <span>Volunteer</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-camera"></i>
+                            <span>Photos</span>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+            <button>
+                <a href="./CV_2023.jpg" download></a>
+                Download CV <i class="fa-solid fa-download"></i>
+                <span class="overlay"></span>
+            </button>
+        </div>
+    </section>
+
+    <!-- SECCION SKILLS -->
+    <section class="skills" id="skills">
+        <div class="contenido-seccion">
+            <h2>Skills</h2>
+            <div class="fila">
+                <!-- Technical Skill -->
+                <div class="col">
+                    <h3>Technical Skills</h3>
+                    <div class="skill">
+                        <span>Python</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>70%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>HTML & CSS</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>75%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>SQL</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>85%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>R</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>81%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Power BI</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>55%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Professional Skills -->
+                <div class="col">
+                    <h3>Professional Skills</h3>
+                    <div class="skill">
+                        <span>Problem-solving</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>90%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Creativity</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Adaptability</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>95%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Comunication</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>90%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Proyect Management</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>95%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION CURRICULUM -->
+    <section id="curriculum" class="curriculum">
+        <div class="contenido-seccion">
+            <h2>Curriculum</h2>
+            <div class="fila">
+                <div class="col izquierda">
+                    <h3>Education</h3>
+                    <div class="item izq">
+                        <h4>MSc in Information Technology (IT) </h4>
+                        <span class="casa">University of Palermo</span>
+                        <span class="fecha">2018 - 2022</span>
+                        <p>Thesis on low female participation in STEM careers, applying machine
+                            learning techniques. Note: 10</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Master in Gender Studies and Policies </h4>
+                        <span class="casa">University Tres de Febrero</span>
+                        <span class="fecha">2020 - 2022</span>
+                        <p>Pending thesis</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>BA in Economics</h4>
+                        <span class="casa">University of Costa Rica</span>
+                        <span class="fecha">2008 - 2013</span>
+                        <p>Thesis on the impact of the quality of secondary education, public or
+                            private, on the performance of university students.
+                            I made statistical models to analyze the difference in the final math
+                            grades taking into account variables such as: gender, type of public or
+                            private school, type of career, etc.
+                            Research helped to promote public policy decisions within the University
+                            of Costa Rica, in order to reduce a possible social gap</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col derecha">
+                    <h3>Work experience</h3>
+                    <div class="item der">
+                        <h4>Data Analyst lead</h4>
+                        <span class="casa">Ministry of Women, Gender and Diversities</span>
+                        <span class="fecha">2021 - 2022</span>
+                        <p> I was responsible for the design and creation of comprehensive public statistical reports, as well as the design and implementation of statistical analysis on large datasets. I successfully migrated large historical datasets to a national consulting system and interpreted data to identify key trends and inform decision-making. My expertise included text mining, machine learning, and data analysis techniques using R and Python, and I was proficient in Power BI, Tableau, and SQL. I was highly motivated and dedicated to using my skills to make a positive impact in this role</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Professor of data analytics</h4>
+                        <span class="casa">Jump! Education</span>
+                        <span class="fecha">2005 - 2008</span>
+                        <p>In my previous role as a teacher of the data analysis technical course at a non-profit organization focused on digital gender gap, I was responsible for the creation of course content and methodology, as well as the selection of relevant topics and examples. I taught students how to use relational databases through the SQL structured query language and how to develop dashboards in Power BI. My efforts were met with a high rate of approval, and my students were extremely satisfied with the course. I am proud of the positive impact I made in this role and am confident in my ability to teach and inspire others</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Data Analyst</h4>
+                        <span class="casa">National Institute of Statistics and Censuses</span>
+                        <span class="fecha">2019 - 2021</span>
+                        <p>I conducted research on a variety of topics including population, gender, employment, income, and development using Python, SQL, and R. I worked with a large amount of data and used data science methods such as megadata extraction, database generation, data quality analysis, data visualization, data modeling, statistical analysis, and benchmarking to conduct quarterly analysis of the Permanent Household Survey (EPH). My expertise included data analytics and data science, and I was skilled at making projections based on my findings. I was committed to producing high-quality research and making a positive impact on policy and decision-making</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION PORTFOLIO -->
+    <section id="portfolio" class="portfolio">
+        <div class="contenido-seccion">
+            <h2>Portfolio</h2>
+            <div class="galeria">
+                <div class="proyecto">
+                    <img src="img/p1.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Diseño Creativo</h3>
+                        <p>Fotografía</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/p2.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Diseño Creativo</h3>
+                        <p>Fotografía</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/p3.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Diseño Creativo</h3>
+                        <p>Fotografía</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/p4.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Diseño Creativo</h3>
+                        <p>Fotografía</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/p5.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Diseño Creativo</h3>
+                        <p>Fotografía</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/p6.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Diseño Creativo</h3>
+                        <p>Fotografía</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION CONTACTO -->
+    <section id="contacto" class="contacto">
+        <div class="contenido-seccion">
+            <h2>CONTACTO</h2>
+            <div class="fila">
+                <!-- Formulario -->
+                <div class="col">
+                    <input type="text" placeholder="Name">
+                    <input type="text" placeholder="Number">
+                    <input type="text" placeholder="Email">
+                    <input type="text" placeholder="Subject">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Mesage"></textarea>
+                    <button>
+                        Enviar Mensaje<i class="fa-solid fa-paper-plane"></i>
+                        <span class="overlay"></span>
+                    </button>
+                </div>
+                <!-- Mapa -->
+                <div class="col">
+                    <img src="img/ubicacion.png" alt="">
+                    <div class="info">
+                        <ul>
+                            <li>
+                                <i class="fa-solid fa-location-dot"></i>
+                                Buenos Aires, Argentina
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-mobile-screen"></i>
+                                Call: + (54) 9 1167131215
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-envelope"></i>
+                                Email: cw@example.com
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer>
+        <a href="#inicio" class="arriba">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
+        <div class="redes">
+            <a href="https://www.instagram.com/macagabya"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://github.com/gespynoza"><i class="fa-brands fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/gabriela-espinoza-picado-b60a5062/"><i class="fa-brands fa-linkedin-in"></i></a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

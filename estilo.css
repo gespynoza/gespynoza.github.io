@@ -144,7 +144,7 @@ html{
     width: 50%;
 }
 .sobremi .fila .col h3{
-    font-size: 28px;
+    font-size: 26px;
     font-family: 'IBM Plex Mono';
     margin-bottom: 25px;
 }
@@ -224,7 +224,7 @@ html{
     margin: auto;
 }
 .skills h2{
-    font-size: 30px;
+    font-size: 25px;
     font-family: 'IBM Plex Mono';
     text-align: center;
     padding: 20px 0;
@@ -374,7 +374,7 @@ html{
     margin: auto;
 }
 .curriculum h2{
-    font-size: 30px;
+    font-size: 25px;
     font-family: 'IBM Plex Mono';
     text-align: center;
     padding: 20px 0;
@@ -389,7 +389,7 @@ html{
     padding: 0 20px;
 }
 .curriculum .fila .col h3{
-    font-size: 25px;
+    font-size: 20px;
     font-family: 'IBM Plex Mono';
     margin-bottom: 25px;
 }
@@ -492,7 +492,7 @@ html{
 }
 .portfolio .galeria .proyecto{
     position: relative;
-    max-width: 340px;
+    max-width: 250px;
     height: fit-content;
     margin: 10px;
     cursor: pointer;
@@ -531,14 +531,14 @@ html{
     background-image: url(img/contact_bg.png);
     background-color: #1e2326;
     color: #fff;
-    padding: 50px 0;
+    padding: 40px 0;
 }
 .contacto .contenido-seccion{
-    max-width: 1100px;
+    max-width: 900px;
     margin: auto;
 }
 .contacto h2{
-    font-size: 35px;
+    font-size: 25px;
     font-family: 'IBM Plex Mono';
     text-align: center;
     padding: 20px 0;
@@ -553,7 +553,7 @@ html{
 }
 .contacto .col input, .contacto .col textarea{
     display: block;
-    width: 100%;
+    width: 80%;
     padding: 18px;
     border: none;
     margin-bottom: 20px;
@@ -567,7 +567,7 @@ html{
     border: 2px solid #fff;
     width: fit-content;
     display: block;
-    margin: 20px auto;
+    margin: 10px auto;
     padding: 10px 22px;
     font-size: 16px;
     color: #fff;
@@ -594,8 +594,8 @@ html{
     position: absolute;
     top: 40%;
     background-color: #252A2E;
-    padding: 20px;
-    max-swidth: 350px;
+    padding: 15px;
+    math-depth: 600px;
     left: 50%;
     transform: translate(-50%, -50%);
 }
@@ -603,17 +603,17 @@ html{
     list-style: none;
 }
 .contacto .col .info ul li{
-    margin-bottom: 20px;
+    margin-bottom: 15px;
 }
 .contacto .col .info ul li i{
     color: #E533FF;
     display: inline-block;
-    margin-right: 20px;
+    margin-right: 15px;
 }
 footer{
     background-color: #252A2E;
     color: #fff;
-    padding: 50px 0 30px 0;
+    padding: 40px 0 30px 0;
     text-align: center;
     position: relative;
     width: 100%;
